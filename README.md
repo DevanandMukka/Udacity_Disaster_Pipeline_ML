@@ -46,6 +46,13 @@ If you are working in Udacity workspace : Kindly follow this link : https://know
 
 If you are running in the local machine : Go to http://0.0.0.0:3001/
 
+Post succesful run you should see the below mentioned pages
+
+##### Home Page
+![image](https://user-images.githubusercontent.com/45567789/69805781-6cf09a80-1207-11ea-8922-5018100bd81c.png)
+
+##### Search with categories
+![image](https://user-images.githubusercontent.com/45567789/69805803-7974f300-1207-11ea-8e38-426bccf1b41d.png)
 
 #### Results 
 
