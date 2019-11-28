@@ -27,15 +27,16 @@ In this project, i have applied the data engineering techniques to read , analyz
 
 #### File Descriptions 
 
-Messages:
+Messages: List of emergency messages 
 
-Categories:
+Categories: Probable categories of the emergency messages (Primary id will be ID)
 
 #### Approach
 
 Run the following commands in the project's root directory to set up your database and model.
 
 To run ETL pipeline that cleans data and stores in database python ./data/process_data.py ./data/disaster_messages.csv ./data/disaster_categories.csv DisasterResponse.db
+
 To run ML pipeline that trains classifier and saves python ./models/train_classifier.py ./DisasterResponse.db classifier.pkl
 Run the following command in the app's directory to run your web app. python run.py
 
@@ -47,8 +48,6 @@ If you are running in the local machine : Go to http://0.0.0.0:3001/
 
 
 #### Results 
-
-The exploration and anlyasis of this data has been posted in Medium as a blogspot and you can access the same [here](https://medium.com/@devanand.mukka/foreign-trade-of-india-a-sneak-peak-83c8b38b5e21).
 
 Subject to the succesful execution of the code, you can able to get the information in the final app about the segment of emergency thus making easy for any organization to take steps.
 
